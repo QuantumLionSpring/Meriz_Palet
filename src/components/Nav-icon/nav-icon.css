@@ -1,0 +1,55 @@
+.Nav__container{
+border-radius: 50px;
+color: white;
+z-index: 2;
+max-height: 32px;
+    font-size: 17.5px;
+    background-color:#653C36;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+}
+.connect__nav ul li {
+    margin-right: 50px;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.connect__nav ul li a{
+    margin-right: 100px;
+    color: white;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+.connect__nav ul li :hover {
+
+    color: black;
+
+
+
+}
+.connect__nav ul li a:hover {
+
+    color: black;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Nav__container {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Nav__container {
+        display: none;
+    }
+}

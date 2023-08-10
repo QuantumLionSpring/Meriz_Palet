@@ -1,0 +1,31 @@
+.wrapper-4{
+    position: relative;
+    height: 60vh;
+    background-image:url("https://ik.imagekit.io/lgf1wyqnvg/slider2-5f915e4c18e82-6039e63316b21-605c89b265adf.jpeg?updatedAt=1690876035916");
+}
+
+.custom-shape-divider-top-1690583980 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1690583980 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-top-1690583980 .shape-fill {
+    fill:#FFFFFF;
+}
+@media only screen and (max-width: 768px) {
+    .wrapper-4{
+       display: none;
+    }
+
+}

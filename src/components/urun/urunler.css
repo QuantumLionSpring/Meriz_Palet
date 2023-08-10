@@ -1,0 +1,39 @@
+.container__urun {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+
+
+}
+
+.customers li {
+    flex: 0 0 20%; /* Dört ürünü yan yana sığdırmak için 25% genişlik */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.customers span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.customers img {
+    width: 100%;
+   height: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.customers img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.urun_banner{
+    font-size: 35px;
+}

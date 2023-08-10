@@ -1,0 +1,32 @@
+.custom-shape-divider-bottom-1690752209 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1690752209 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 166px;
+}
+
+.custom-shape-divider-bottom-1690752209 .shape-fill {
+    fill: #FFFFFF;
+}
+.wrapper-3{
+    position: relative;
+    height: 60vh;
+    background: url("https://ik.imagekit.io/lgf1wyqnvg/slider2-5f915e4c18e82-6039e63316b21-605c89b265adf.jpeg?updatedAt=1690876035916");
+}
+@media only screen and (max-width: 768px) {
+    .wrapper-3{
+       display: none
+    ;
+    }
+
+}
